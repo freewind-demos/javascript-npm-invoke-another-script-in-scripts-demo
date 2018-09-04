@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "demo": "node hello.js"
+    "hello": "node hello.js",
+    "demo": "npm run hello && echo OK"
   },
   "dependencies": {
     "lodash": "^4.17.10"
